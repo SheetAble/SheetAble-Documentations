@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'SheetAble',
+  tagline: 'Self-hosted sheet organising software',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/SheetAble.png',
+  organizationName: 'SheetAble', // Usually your GitHub org/user name.
+  projectName: 'SheetAble', // Usually your repo name.
 
   presets: [
     [
@@ -37,7 +37,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       navbar: {
         title: 'SheetAble Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'SheetAble Logo',
           src: 'img/SheetAble.png',
         },
         items: [
@@ -56,7 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -98,7 +98,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SheetAble`,
       },
       prism: {
         theme: lightCodeTheme,
