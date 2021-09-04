@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #303846;
-  --ifm-color-primary-dark: #2b323f;;
-  --ifm-color-primary-darker: #29303c;
-  --ifm-color-primary-darkest: #222731	;
-  --ifm-color-primary-light: #353e4d;
-  --ifm-color-primary-lighter: #374050;
-  --ifm-color-primary-lightest: #3e495b;
+  --ifm-color-primary: #6b62ff;
+  --ifm-color-primary-dark: #4a3fff;
+  --ifm-color-primary-darker: #392dff;
+  --ifm-color-primary-darkest: #0e00f7;
+  --ifm-color-primary-light: #8c85ff;
+  --ifm-color-primary-lighter: #9d97ff;
+  --ifm-color-primary-lightest: #cfccff;
   --ifm-code-font-size: 95%;
 }
 
@@ -23,16 +23,8 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] {
-  
-  /* Change colors for dark mode */
-  --ifm-color-primary: whitesmoke;
-  --ifm-color-primary-dark: #fff;;
-  --ifm-color-primary-darker: #fff;
-  --ifm-color-primary-darkest: #fff	;
-  --ifm-color-primary-light: #fff;
-  --ifm-color-primary-lighter: #fff;
-  --ifm-color-primary-lightest: #fff;
+.hero--primary {
+  background-color: #303846;
 }
 
 
@@ -41,6 +33,40 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 }
 
-.container img {
-  width: 150px;
+.hero__title, .hero__subtitle {
+  color: white;
 }
+
+.hero__title {
+  color: var(--ifm-color-primary-light);
+}
+
+.hero__title span {
+  color: white;
+  font-weight: 700;
+}
+
+.announcementInner_wzcV {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.announcement_1xxL {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 48px;
+    text-align: center;
+}
+
+a {
+    color: var(--ifm-color-primary-lighter);
+    text-decoration: var(--ifm-link-decoration);
+    transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.announcementDark_ApU5 {
+    background-color: #20232a;
+    color: #fff;
+}
+
