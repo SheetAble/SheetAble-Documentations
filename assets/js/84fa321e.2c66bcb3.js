@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksheet_uploader_docs=self.webpackChunksheet_uploader_docs||[]).push([[96],{3050:function(e){e.exports=JSON.parse('{"allTagsPath":"SheetAble-Documentations/blog/tags","slug":"SheetAble-Documentations/blog/tags/announcements","name":"announcements","count":1,"permalink":"SheetAble-Documentations/blog/tags/announcements"}')}}]);
