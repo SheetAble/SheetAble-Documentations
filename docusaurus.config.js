@@ -17,7 +17,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     image: 'img/blog/SheetAbleRelease.jpg',
     keywords: [],
   },
-  plugins: ['@docusaurus/plugin-google-gtag'],
+  
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -38,8 +38,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-       gtag: {
-        // You can also use your "G-" Measurement ID here.
+      gtag: {
         trackingID: 'G-NEX841864J',
         // Optional fields.
         anonymizeIP: true, // Should IPs be anonymized?
