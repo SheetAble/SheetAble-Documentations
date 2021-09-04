@@ -1,14 +1,6 @@
 name: documentation
 
 on: 
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Person to greet'
-        required: false
-        default: 'Mona the Octocat'
-
-
   pull_request:
     branches: [main]
   push:
