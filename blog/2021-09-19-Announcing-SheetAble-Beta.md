@@ -10,10 +10,12 @@ authors:
 tags: [announcements]
 hide_table_of_contents: false
 ---
-Welcome to this blog. This blog is created with [**Docusaurus 2**](https://docusaurus.io/).
+### SheetAble v0.1 has launched! 
+If you want to start testing, head over to the [Installation guide](/docs) to get started. If you have any further questions check out the [FAQ](/docs/faq) or ask in our [Discord Server](http://localhost:3000/docs/faq).
+ 
+Thank you for being part of the SheetAble Beta.
 
-<!--truncate-->
+**Good luck testing and have a great day!**
 
-This is my first post on Docusaurus 2.
 
-A whole bunch of exploration to follow.
+<img src="../static/img/blog/SheetAbleRelease.jpg" alt="Release" class="blog-img"/>
