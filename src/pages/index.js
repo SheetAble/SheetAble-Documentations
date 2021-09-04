@@ -44,7 +44,10 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome!`}
-      description="Description will go into a meta tag in <head />">
+      description="SheetAble is a simple to use self-hosted music sheet organiser for your personal usage."
+      image="/img/blog/SheetAbleRelease.jpg"
+      >
+
       <HomepageHeader />
       <main>
         <HomepageFeatures />

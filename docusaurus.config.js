@@ -13,7 +13,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/SheetAble.png',
   organizationName: 'SheetAble', // Usually your GitHub org/user name.
   projectName: 'SheetAble-Documentations', // Usually your repo name.
-
+  customFields: {
+    image: 'img/blog/SheetAbleRelease.jpg',
+    keywords: [],
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -34,6 +37,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        apiKey: 'YOUR_API_KEY',
+        indexName: 'YOUR_INDEX_NAME',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: see doc section below
+        appId: 'YOUR_APP_ID',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        //... other Algolia params
+      },
       navbar: {
         title: 'SheetAble Docs',
         logo: {
