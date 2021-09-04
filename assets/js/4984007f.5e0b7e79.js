@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksheet_uploader_docs=self.webpackChunksheet_uploader_docs||[]).push([[546],{4100:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/announcements","name":"announcements","count":1,"permalink":"/blog/tags/announcements"}')}}]);
