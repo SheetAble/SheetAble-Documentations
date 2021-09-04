@@ -29,7 +29,7 @@ function HomepageHeader() {
     <div class="announcement_1xxL announcementDark_ApU5">
       <div class="announcementInner_wzcV">
         Join our&nbsp;
-        <a href="https://discord.com/invite/7f7HqzDDS6" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/QnFbxyPbRj" target="_blank" rel="noopener noreferrer">
           Discord Server
         </a>
         &nbsp;to get the newest updates!
