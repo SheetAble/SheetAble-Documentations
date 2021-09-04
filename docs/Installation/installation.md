@@ -9,4 +9,5 @@ You can either install SheetAble with Docker or natively on your machine. We wou
 :::
 ## Redirections
 - [Installation with Docker](/docs/Installation/installation-docker)
-- [Native installation](/docs/Installation/native-installation.md)
+- [Native installation](/docs/Installation/native-installation)
+- [Configuartion](/docs/Installation/configuration)
