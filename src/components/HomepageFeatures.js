@@ -5,31 +5,28 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/undraw_Setup.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        SheetAble is an to install on all of your systems natively or with Docker.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Work in progress',
+    Svg: require('../../static/img/undraw_work_in_progress.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        SheetAble is under constant developing, trying to implement more and more features down the road. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Free basic usage',
+    Svg: require('../../static/img/undraw_Savings.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The basic version of SheetAble is and will always stay free to all music enthusiast out there.
       </>
     ),
   },
