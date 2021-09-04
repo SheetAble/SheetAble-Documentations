@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'SheetAble',
   tagline: 'Self-hosted sheet organising software',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://SheetAble.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SheetAble.png',
   organizationName: 'SheetAble', // Usually your GitHub org/user name.
-  projectName: 'SheetAble', // Usually your repo name.
+  projectName: 'SheetAble-Documentations', // Usually your repo name.
 
   presets: [
     [
@@ -72,7 +72,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Installation',
-                to: '/docs/installation',
+                to: '/docs/Installation/installation',
               },
               {
                 label: 'FAQ',
