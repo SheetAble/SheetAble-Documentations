@@ -49,10 +49,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'docsVersionDropdown',
+            position: 'right'
+          },
+          {
             href: 'https://discord.gg/QnFbxyPbRj',
             label: 'Discord',
             position: 'right',
           },
+          
         ],
       },
       footer: {
