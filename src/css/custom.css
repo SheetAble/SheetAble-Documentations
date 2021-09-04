@@ -16,6 +16,13 @@
   --ifm-code-font-size: 95%;
 }
 
+::selection {
+  background: var(--ifm-color-primary-lighter); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--ifm-color-primary-lighter);; /* Gecko Browsers */
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
