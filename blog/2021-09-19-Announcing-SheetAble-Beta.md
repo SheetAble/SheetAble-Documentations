@@ -10,7 +10,8 @@ authors:
 tags: [announcements]
 hide_table_of_contents: false
 ---
+
 ### SheetAble v0.1 has launched! 
-If you want to start testing, head over to the [Installation guide](/docs) to get started. If you have any further questions check out the [FAQ](/docs/faq) or ask in our [Discord Server](http://localhost:3000/docs/faq). Until then  
+If you want to start testing, head over to the [Installation guide](/docs) to get started. If you have any further questions check out the [FAQ](/docs/faq) or ask in our [Discord Server](https://discord.com/invite/QnFbxyPbRj). Until then  
 **Good luck testing and have a great day!**
-<img src="../static/img/blog/SheetAbleRelease.jpg" alt="Release" class="blog-img"/>
+<img src="img/blog/SheetAbleRelease.jpg" alt="Release" class="blog-img"/>
