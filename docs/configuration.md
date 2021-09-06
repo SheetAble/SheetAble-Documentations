@@ -1,4 +1,4 @@
-# Configuartion
+# Configuration
 Currently the only way to change the most settings in SheetAble is through the env variables.
 
 ## How to change environment variables

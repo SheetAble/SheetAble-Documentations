@@ -13,5 +13,5 @@ The default login credentials for the admin user are:
 - **Email:** admin<span></span>@admin.com
 - **Password:** sheetable
 
-**To configure** those and/or change other settings use the [Configuration guide](/docs/Installation/configuration)
+**To configure** those and/or change other settings use the [Configuration guide](/docs/configuration)
 :::
