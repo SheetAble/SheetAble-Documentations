@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome!`}
-      description="SheetAble is a simple to use self-hosted music sheet organiser for your personal usage."
+      description="SheetAble is a simple to use self-hosted music sheet organizer for your personal usage."
       image="/img/blog/SheetAbleRelease.jpg"
       >
 
