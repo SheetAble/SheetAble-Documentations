@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'SheetAble',
   tagline: 'Self-hosted sheet organising software',
-  url: 'https://SheetAble.github.io',
-  baseUrl: '/SheetAble-Documentations/',
+  url: 'http://sheetable.net',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SheetAble.png',
