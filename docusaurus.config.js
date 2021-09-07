@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'SheetAble',
-  tagline: 'Self-hosted sheet organising software',
+  tagline: 'Self-hosted sheet organizing software',
   url: 'http://sheetable.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
