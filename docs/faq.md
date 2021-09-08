@@ -6,7 +6,7 @@
   - [Will there be mobile support?](#will-there-be-mobile-support)
   - [Is there an early access version?](#is-there-an-early-access-version)
   - [Will there be a paid version?](#will-there-be-a-paid-version)
-  - [Will SheetAble be open source?](#will-sheetable-be-open-source)
+  - [Is SheetAble be open source?](#is-sheetable-be-open-source)
   - [How can I help?](#how-can-i-help)
   - [What if I don't have a home server?](#what-if-i-dont-have-a-home-server)
 
@@ -22,9 +22,8 @@ Our goal was from the beginning on to have SheetAble available on all your devic
 ## Will there be a paid version?
 Our plan is to create a version of SheetAble which will have more functionalities. However there will always be a free version of SheetAble with a sufficient amount of functionalities. 
 
-## Will SheetAble be open source?
-The question if SheetAble will be open source is still under consultation. Until the decision is made only the Documentation will be open source.
-
+## Is SheetAble be open source?
+Yes, SheetAble is currently 100% open source.
 [Our Github organization](https://github.com/SheetAble)
 
 ## How can I help?

@@ -66,7 +66,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Discord',
             position: 'right',
           },
-          
+          {
+          href: 'https://github.com/SheetAble',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'Github repository',
+        },
         ],
       },
       footer: {
