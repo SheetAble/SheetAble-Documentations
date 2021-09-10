@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Native Installation
-Installing SheetAble natively only takes one step. You have to download the [binary file for your system](https://github.com/SheetAble/server/releases).
+Installing SheetAble natively only takes one step. You have to download the [binary file for your system](https://github.com/SheetAble/SheetAble/releases).
 After downloading it take it to your directory of choice and execute it.
 And **that's it!** 
 
