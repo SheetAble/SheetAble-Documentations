@@ -43,6 +43,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         // Optional fields.
         anonymizeIP: true, // Should IPs be anonymized?
       },
+      algolia: {
+      apiKey: 'c127d68215e6acb7a3eb889027262432',
+      indexName: 'sheetable',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+    },
       navbar: {
         title: 'SheetAble Docs',
         logo: {
