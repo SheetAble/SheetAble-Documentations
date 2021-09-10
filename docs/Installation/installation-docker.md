@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Installation with Docker
 ## Prerequisites
-Incase you do **not** have Docker installed on your machine here are the URLs:
+In case you do **not** have Docker installed on your machine here are the URLs:
 - Install on [Mac](https://docs.docker.com/desktop/mac/install/)
 - Install on [Windows](https://docs.docker.com/desktop/windows/install/)
 - Install on [Linux](https://docs.docker.com/engine/install/)
