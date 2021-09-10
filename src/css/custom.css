@@ -88,6 +88,10 @@ a {
   border-radius: 20px;
 }
 
+.showcase-img {
+  border-radius: 5px;
+}
+
 
 .header-github-link:hover {
   opacity: 0.6;
