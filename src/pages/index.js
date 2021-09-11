@@ -43,7 +43,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome!`}
+      title={`Self-hosted music sheet organizer`}
       description="SheetAble is a simple to use self-hosted music sheet organizer for your personal usage."
       image="/img/blog/SheetAbleRelease.jpg"
       >
