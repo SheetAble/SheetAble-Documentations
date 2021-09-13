@@ -32,5 +32,6 @@ You can also change env variables natively.
 | DB_PORT        | Use mysql or postgres? Enter db port here.                                       |
 | ADMIN_EMAIL    | Your admin email                                                                 |
 | ADMIN_PASSWORD | Your admin password                                                              |
-
+| DEV | 0, 1 -  if 1: activated dev mode for developing purposes                                                              |
+| CONFIG_PATH | Path where you want your data to be instead of in the root dir                                                              |
 [Get sample .env file here](https://raw.githubusercontent.com/SheetAble/SheetAble-Documentations/main/static/files/.env.sample)
