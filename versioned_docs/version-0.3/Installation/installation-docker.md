@@ -20,10 +20,30 @@ If you want to save the data (uploaded sheets, etc) in a docker volume you have 
 `-v your_volume:/app/config`.
 In case you do not know how volumes work here the [official Docker docs](https://docs.docker.com/storage/volumes/) to that topic.
 
+## Docker composer file
+An example docker-composer file would look like this:
+```yml
+---
+version: "3"
+
+services:
+  sheetable:
+    container_name: sheetable
+    restart: unless-stopped
+    image: vallezw/sheetable
+    ports:
+      - 8080:3006
+    environment:
+      - PORT:3006
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /local/path/config/dir:/app/config
+```
+
+## Login Data
 :::tip Login Data
 The default login credentials for the admin user are:
 - **Email:** admin<span></span>@admin.com
 - **Password:** sheetable
-
 **To configure** those and/or change other settings use the [Configuration guide](/docs/configuration)
 :::
