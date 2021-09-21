@@ -35,7 +35,8 @@ services:
     ports:
       - 8080:3006
     environment:
-      - PORT:3006
+      - PORT=3006
+      - CONFIG_PATH=/app/config/
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /local/path/config/dir:/app/config
