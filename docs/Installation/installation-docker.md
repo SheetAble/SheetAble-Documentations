@@ -33,9 +33,7 @@ services:
     restart: unless-stopped
     image: vallezw/sheetable
     ports:
-      - 8080:3006
-    environment:
-      - PORT:3006
+      - 80:8080
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /local/path/config/dir:/app/config
