@@ -24,16 +24,16 @@ In case you do not know how volumes work here the [official Docker docs](https:/
 ## Docker composer file
 An example docker-composer file would look like this:
 ```yml
----
 version: "3"
-
-services:
+services:  
   sheetable:
     container_name: sheetable
     restart: unless-stopped
     image: vallezw/sheetable
     ports:
       - 80:8080
+    environment:
+      - CONFIG_PATH=/app/config/
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /local/path/config/dir:/app/config
