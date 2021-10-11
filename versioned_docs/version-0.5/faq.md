@@ -23,7 +23,7 @@ Our goal was from the beginning on to have SheetAble available on all your devic
 Our plan is to create a version of SheetAble that will have more functionalities. However, there will always be a free version of SheetAble with a sufficient amount of functionalities. 
 
 ## Is SheetAble be open source?
-Yes, SheetAble is currently 100% open source.
+Yes, SheetAble is and will stay 100% open source.
 [Our Github organization](https://github.com/SheetAble)
 
 ## How can I help?
