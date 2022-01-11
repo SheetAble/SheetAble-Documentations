@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_Setup.svg').default,
     description: (
       <>
-        SheetAble is an to install on all of your systems natively or with Docker.
+        SheetAble is easy to install on all of your systems natively or with Docker.
       </>
     ),
   },
