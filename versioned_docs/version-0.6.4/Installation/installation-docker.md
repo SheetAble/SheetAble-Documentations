@@ -35,7 +35,6 @@ services:
     environment:
       - CONFIG_PATH=/app/config/
     volumes:
-      - /etc/localtime:/etc/localtime:ro
       - /local/path/config/dir:/app/config
 ```
 
