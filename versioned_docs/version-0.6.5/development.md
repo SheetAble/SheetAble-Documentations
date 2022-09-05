@@ -1,4 +1,4 @@
-# Develoment & Contributions
+# Development & Contributions
 This will be the getting started guide if you want to contribute or try out some stuff with SheetAble yourself!
 
 ## Setting up the environment
