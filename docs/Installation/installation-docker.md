@@ -11,10 +11,10 @@ In case you do **not** have Docker installed on your machine here are the URLs:
 ## Install it via Docker CLI
 With the Docker CLI it is pretty simple. You just need to run one command:
 ```sh
-❯ docker run -p 80:8080 vallezw/sheetable 
+❯ docker run -p 8080:8080 vallezw/sheetable 
 ```
 ### Port
-As you can see in the command above the image exposes the **8080** port.
+As you can see in the example command above, the **8080** port will be mapped to port **8080** in the docker host.
 ### Volumes
 If you want to save the data (uploaded sheets, etc) in a docker volume you have to add
 `-v your_volume:/app/config`.
@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
     image: vallezw/sheetable
     ports:
-      - 80:8080
+      - 8080:8080
     environment:
       - CONFIG_PATH=/app/config/
     volumes:
@@ -44,5 +44,5 @@ services:
 The default login credentials for the admin user are:
 - **Email:** admin<span></span>@admin.com
 - **Password:** sheetable
-**To configure** those and/or change other settings use the [Configuration guide](/docs/configuration)
+**To configure** those and/or change other settings such as the port mapping, use the [Configuration guide](/docs/configuration)
 :::
