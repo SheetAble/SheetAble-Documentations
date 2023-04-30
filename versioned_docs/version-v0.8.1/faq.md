@@ -11,10 +11,10 @@
   - [What if I don't have a home server?](#what-if-i-dont-have-a-home-server)
 
 ## Where can I report a bug?
-To report a bug, please go over to our [Discord Server](https://discord.com/invite/QnFbxyPbRj) where our Developer team currently active is.
+To report a bug, please go over to our [Discord Server](https://discord.com/invite/QnFbxyPbRj) where our Developer team is currently active.
 
 ## Will there be mobile support?
-Our goal was from the beginning on to have SheetAble available on all your devices so you can also edit them on your Tablet/iPad and have them synchronized by your home server.
+At the moment, there is no mobile support. However, our goal is to have SheetAble available on all your devices so you can also edit them on your Tablet/iPad and have them synchronized by your home server.
 
 ## Is there an early access version?
 **Yes**, we will create an early access build before every release for our testers to test it and check it out. Sometimes there will be announcements on the [Discord Server](https://discord.com/invite/QnFbxyPbRj) if any new places opened up. So if you are interested you need to give yourself the `Early Access` role to get pinged on the announcements.
@@ -22,12 +22,12 @@ Our goal was from the beginning on to have SheetAble available on all your devic
 ## Will there be a paid version?
 Our plan is to create a version of SheetAble that will have more functionalities. However, there will always be a free version of SheetAble with a sufficient amount of functionalities. 
 
-## Is SheetAble be open source?
+## Is SheetAble open source?
 Yes, SheetAble is currently 100% open source.
 [Our Github organization](https://github.com/SheetAble)
 
 ## How can I help?
-- Bringin new ideas to us via our [Discord Server](https://discord.com/invite/QnFbxyPbRj)
+- Bringing new ideas to us via our [Discord Server](https://discord.com/invite/QnFbxyPbRj)
 - Fixing typos in our [Documentation](https://github.com/SheetAble/SheetAble-Documentations)
 - Write new parts for our [Documentation](https://github.com/SheetAble/SheetAble-Documentations)
 - SheetAble is currently in its early ages of development, so not many people have heard about it. If you have any friends or family, who might be interested in such a product, please let them know.
